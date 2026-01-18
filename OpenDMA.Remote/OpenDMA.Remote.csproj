@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <PackageId>OpenDMA.Remote</PackageId>
+    <Version>0.8.0-dev</Version>
+    <Authors>Stefan Kopf, OpenDMA Contributors</Authors>
+    <Company>xaldon Technologies GmbH, OpenDMA Contributors</Company>
+    <Description>OpenDMA REST client to access OpenDMA repositories via REST</Description>
+    <RepositoryUrl>https://github.com/OpenDMA/opendma-csharp-remote</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>OpenDMA;ECM;DMS;ContentManagement</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <LangVersion>8.0</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(TargetFramework)' != 'netstandard2.0'">
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenDMA.Api" Version="0.8.0" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDMA.Remote", "OpenDMA.Remote\OpenDMA.Remote.csproj", "{380942FA-EA1C-45CB-BB07-EE8B67CDFC2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDMA.Remote.Example", "OpenDMA.Remote.Example\OpenDMA.Remote.Example.csproj", "{2480ECC9-9E9B-477B-AEA7-F3FE7600649D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{380942FA-EA1C-45CB-BB07-EE8B67CDFC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380942FA-EA1C-45CB-BB07-EE8B67CDFC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380942FA-EA1C-45CB-BB07-EE8B67CDFC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380942FA-EA1C-45CB-BB07-EE8B67CDFC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2480ECC9-9E9B-477B-AEA7-F3FE7600649D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2480ECC9-9E9B-477B-AEA7-F3FE7600649D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2480ECC9-9E9B-477B-AEA7-F3FE7600649D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2480ECC9-9E9B-477B-AEA7-F3FE7600649D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
