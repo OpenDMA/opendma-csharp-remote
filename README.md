@@ -1,4 +1,4 @@
-# OpenDMA REST client for Python
+# OpenDMA REST client for C#
 
 Please see [OpenDMA API for C#](https://github.com/OpenDMA/opendma-csharp-api)
 for an introduction to OpenDMA and it's C# API.
